@@ -1,0 +1,12 @@
+name: 'Create an cloudfront invalidation'
+description: 'Create an cloudfront invalidation'
+author: 'William Penagos'
+
+inputs:
+  INVALIDATION_ID:
+    description: 'Invalidation ID'
+    required: true
+
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

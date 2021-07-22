@@ -1,0 +1,36 @@
+{
+  "name": "action-generate-invalidation",
+  "version": "1.0.0",
+  "description": "generate invalidation cloudfront",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src/action.js -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortil/action-generate-invalidation.git"
+  },
+  "keywords": [
+    "aws",
+    "clodufront",
+    "invalidation",
+    "github",
+    "actions"
+  ],
+  "author": "fortil <billalpeza@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fortil/action-generate-invalidation/issues"
+  },
+  "homepage": "https://github.com/fortil/action-generate-invalidation#readme",
+  "devDependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.29.0",
+    "node-fetch": "^2.6.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.952.0"
+  }
+}
