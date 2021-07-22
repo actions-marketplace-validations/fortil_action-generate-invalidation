@@ -1,6 +1,7 @@
 name: 'Create an cloudfront invalidation'
 description: 'Create an cloudfront invalidation'
 author: 'William Penagos'
+icon: check-circle
 
 inputs:
   INVALIDATION_ID:
