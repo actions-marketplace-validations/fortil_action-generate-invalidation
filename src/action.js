@@ -4,7 +4,7 @@ const core = require('@actions/core');
 
 const INVALIDATION_ID = core.getInput('INVALIDATION_ID');
 
-async function run() {
+function run() {
   const params = {
     DistributionId: `${INVALIDATION_ID}`, /* required */
     InvalidationBatch: { /* required */
